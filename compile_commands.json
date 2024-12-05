@@ -1,0 +1,17 @@
+[
+  {
+    "arguments": [
+      "/usr/bin/gcc",
+      "-Wall",
+      "-Wextra",
+      "-Iinclude",
+      "-c",
+      "-o",
+      "build/sort/bubble_sort.o",
+      "src/sort/bubble_sort.c"
+    ],
+    "directory": "/home/quentin/Development/c/c_sort",
+    "file": "/home/quentin/Development/c/c_sort/src/sort/bubble_sort.c",
+    "output": "/home/quentin/Development/c/c_sort/build/sort/bubble_sort.o"
+  }
+]
