@@ -50,5 +50,21 @@ int main() {
 
   printf("\n");
 
+  int arr4[10] = {7, 2, 9, 4, 1, 8, 5, 10, 3, 6};
+
+  printf("Unsorted array4:\n");
+  for (int i = 0; i < 10; i++)
+    printf("%d ", arr4[i]);
+
+  printf("\n");
+
+  merge_sort(arr4, 10);
+
+  printf("After merge sort:\n");
+  for (int i = 0; i < 10; i++)
+    printf("%d ", arr4[i]);
+
+  printf("\n");
+
   return 0;
 }
